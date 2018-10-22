@@ -1,0 +1,68 @@
+/*Tablet*/
+
+@media (min-width: 700px) {
+	body {
+		border-top: 10px solid green;
+	}
+	.logo {
+		/*background: url(../images/IMG_0844.JPG) no-repeat center top;*/
+		padding: 0;
+		height: 100%;
+
+	}
+	nav img {
+		max-width: 300px;
+		padding-bottom: 10px;
+	}
+	header .logo {
+		/*float: left;*/
+		padding-bottom: 20px;
+		
+	}
+	header nav li {
+		display: inline-block;
+	}
+
+	nav ul {
+		font-size: 1.25rem;
+	}
+	article p:first-child {
+		margin: 0;
+	}
+	.hero {
+		padding: 0;
+		min-height: 400px;
+		/*background-attachment: fixed;*/
+	}
+	.blurb {
+		float: left;
+		width: 60%;
+		padding-right: 10px;
+	}
+	.bayonne-pic {
+		float: right;
+		width: 30%;
+
+	}
+	footer {
+		clear: both;
+	}
+
+}
+@media (min-width: 1024px) {
+	body {
+		border-top: 10px solid red;
+	}
+	nav img {
+		position: absolute;
+		left: 0;
+		top: 0;
+		max-height: 100px;
+		max-width: 300px;
+	}
+	.menu {
+		text-align: right;
+		position: relative;
+
+	}
+}

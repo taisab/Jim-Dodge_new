@@ -1,0 +1,33 @@
+@media (min-width: 768px) {
+	header .logo {
+		float: left;
+		padding-bottom: 20px;
+		
+	}
+	ul.menu {
+		padding: 10px 0 10px 0;
+	}
+	.menu {
+		float: right;
+		font-size: 1.25rem;
+	}
+
+	header nav li {
+		display: inline-block;
+	}
+	img.photo {
+		float: right;
+		min-width: 400px;
+	}
+
+	article {
+		display: block;
+		float: left;
+	}
+	article {
+	font-size: 1.75rem;	
+}
+	.hero {
+		height: 280px;
+	}
+}
